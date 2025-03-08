@@ -1,8 +1,10 @@
 package tests;
 
 import com.codeborne.selenide.Condition;
+import org.testng.annotations.Test;
 
 public class LeaveTest extends BasicTest {
+    @Test
     public void invalidEmployeeNameSearch() {
         app.loginPage.login(app.userCredentials.adminLogin, app.userCredentials.adminPassword);
 

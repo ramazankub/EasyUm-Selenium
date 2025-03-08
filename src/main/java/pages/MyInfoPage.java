@@ -21,4 +21,9 @@ public class MyInfoPage extends BasePage{
     public SelenideElement provinceInfo = $(By.xpath("(//input[@class='oxd-input oxd-input--" +
             "active'])[4]"));
     public SelenideElement otherSaveBtn = $(By.xpath("//button[@type='submit']"));
+    public SelenideElement downloadFileButton = $(By.xpath("(//button[@class='oxd-icon-button oxd-table-" +
+            "cell-action-space'][3])"));
+
+    public SelenideElement questionMark = $(By.xpath("//button[@title='Help']"));
+    public SelenideElement newTabHeader = $(By.xpath("//h1"));
 }

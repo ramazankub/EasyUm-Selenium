@@ -1,5 +1,4 @@
 package utils;
-
 import pages.*;
 
 public class App extends BasePage {
@@ -10,4 +9,5 @@ public class App extends BasePage {
    public LeavePage leavePage = new LeavePage();
    public MyInfoPage myInfoPage = new MyInfoPage();
    public DirectoryPage directoryPage = new DirectoryPage();
+   public ClaimPage claimPage = new ClaimPage();
 }
